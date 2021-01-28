@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +13,11 @@ h1, p, figure {
 }
 
 .container {
+    margin-top: 50px;
     width: 50%;
     height: 80%;
     display: grid;
+    grid-gap: 10px;
 }
 
 .cont-logo {
@@ -73,6 +74,9 @@ h1, p, figure {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+    }
+
     .container {
         width: unset;
         height: unset;
