@@ -74,14 +74,6 @@ h1, p, figure {
     border-radius: 100%;
 }
 
-.firma {
-    margin-top: 100px;
-}
-
-.firma a {
-    color: black;
-}
-
 @media screen and (max-width: 500px) {
     body {
     }
@@ -98,9 +90,5 @@ h1, p, figure {
 
     .cont-buttons {
         width: 70%;
-    }
-
-    .firma {
-        margin-top: 100px;
     }
 }
