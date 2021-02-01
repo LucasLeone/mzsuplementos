@@ -18,6 +18,10 @@ a {
 }
 
 nav {
+    background-color: #4caf50;
+}
+
+.nav-cont {
     height: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,21 +30,21 @@ nav {
     margin-left: 5%;
 }
 
-nav figure {
+.nav-cont figure {
     margin-left: 25px;
 }
 
-nav figure img {
+.nav-cont figure img {
     width: 50px;
     border-radius: 100%;
 }
 
-nav ul {
+.nav-cont ul {
     display: flex;
     justify-content: flex-end;
 }
 
-nav ul li {
+.nav-cont ul li {
     margin: 0 25px;
 }
 
