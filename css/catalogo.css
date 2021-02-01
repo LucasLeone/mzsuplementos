@@ -22,6 +22,8 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    width: 90%;
+    margin-left: 5%;
 }
 
 nav figure {
@@ -82,16 +84,22 @@ nav ul li {
     width: 100px !important;
 }
 
+.wheyxpro {
+    grid-column: 2;
+}
+
 .cont-item-text p {
     font-size: 14px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 920px) {
     nav {
         padding-top: 10px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         justify-items: center;
+        width: unset;
+        margin-left: unset;
     }
     
     nav figure {
@@ -109,5 +117,9 @@ nav ul li {
 
     .cont-item {
         justify-content: unset;
+    }
+
+    .wheyxpro {
+        grid-column: unset;
     }
 }
