@@ -15,6 +15,7 @@ li {
 a {
     color: black;
     text-decoration: none;
+    font-size: 18px;
 }
 
 nav {
@@ -66,7 +67,6 @@ nav {
     grid-template-columns: 1fr 1fr;
     margin: 10px;
     padding-right: 20px;
-    width: 500px;
     height: 250px;
     box-shadow: 0px 0px 20px 10px #eaeaea;
     border-radius: 5px;
@@ -105,23 +105,20 @@ nav {
     font-size: 14px;
 }
 
-@media screen and (max-width: 920px) {
-    nav {
-        padding-top: 10px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+@media screen and (max-width: 1300px) {
+    .nav-cont {
         justify-items: center;
         width: unset;
         margin-left: unset;
     }
     
-    nav figure {
-        margin-left: unset;
+    .nav-cont figure {
+        justify-self: self-start;
+        margin-left: 30px;
     }
 
-    nav ul {
+    .nav-cont ul {
         justify-content: unset;
-        padding-left: 20px;
     }
 
     .container {
@@ -130,6 +127,7 @@ nav {
 
     .cont-item {
         justify-content: unset;
+        width: unset;
     }
 
     .wheyxpro {
